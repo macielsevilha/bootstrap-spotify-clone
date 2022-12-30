@@ -1,6 +1,104 @@
+html,
+body,
+#home {
+    height: 100%;
+}
+
 body {
-    background-image: url('../imgs/capa.png'), 
-                      url('../imgs/ruido.png'),
-                      linear-gradient(50deg, #ff4169, #7c26f8);
-                      background-attachment: fixed;
+    background-image: url('../imgs/capa.png'),
+        url('../imgs/ruido.png'),
+        linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+}
+
+h1 {
+    font-weight: 900 !important;
+    margin-bottom: 50px !important;
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+}
+
+.navbar .navbar-toggler {
+    color: rgba(255, 2555, 255, 0.5);
+    border-color: white;
+}
+
+.divisor {
+    width: 1.2px;
+    margin: 12px 15px;
+    background: white;
+}
+
+.btn-custom {
+    color: white !important;
+    border-radius: 500px !important;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    margin: 0px 5px;
+}
+
+.btn-roxo {
+    background: #7c26f8 !important;
+}
+
+.btn-roxo:hover {
+    background: #6207e3 !important;
+}
+
+.btn-branco {
+    border: 2px solid white !important;
+}
+
+.btn-branco:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 3em !important;
+    }
+    .btn-custom {
+        margin: 10px 0px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 3.5em !important;
+    }
+    .btn-custom {
+        margin: 10px 0px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+        font-size: 4em !important;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1 {
+        font-size: 5em !important;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 6em !important;
+    }
 }
