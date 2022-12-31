@@ -107,6 +107,10 @@ footer ul li{
     color: black !important;
 }
 
+.carousel-control-next, .carousel-control-prev {
+   width: 5% !important;
+   text-decoration: none !important;
+}
 #servicos {
     background: white;
 }
